@@ -34,19 +34,19 @@ Nicholas Rogers 6/21
 
 # Usage:
 
-To generate a texture feature vector from a 256x256 image the command
+To generate a texture feature vector from a 256x256 image use the command:
 
 ```
 import steerablepyrtexture as spt
 params = spt.textureAnalyze(img, 5, 4, 7, vector_output=True)
 ```
 
-will use a 5 subband, 4 orientation steerable pyramid decomposition with a 7x7 square 
+This uses a 5 subband, 4 orientation steerable pyramid decomposition with a 7x7 square 
 of entries around the center of the auto/cross-correlation matrices. 
 
 The default output is a dictionary containing the parameter descriptors. Use vector output 
 as a shortcut for generating a feature vector. With the settings shown above the output will 
-have 2195 features. Some of which will always be 0.
+be a vector with 2195 features (some of which will always be 0).
 
 
 
