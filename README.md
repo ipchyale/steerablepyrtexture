@@ -46,7 +46,7 @@ of entries around the center of the auto/cross-correlation matrices.
 
 The default output is a dictionary containing the parameter descriptors. Use vector output 
 as a shortcut for generating a feature vector. With the settings shown above the output will 
-have 2195 features. Some of which will should be always 0.
+have 2195 features. Some of which will always be 0.
 
 
 
