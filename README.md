@@ -2,7 +2,8 @@
 
 A modification pyrtools which is the Python 3 port of Eero Simoncelli's matlabPyrTools.
 This version only includes the steerable pyramid portions of pyrtools and adds the texture
-analysis function from their textureSynth MATLAB package. Additionally, to make 
+analysis function from their textureSynth MATLAB package. Additionally, to make the package
+compatible with Windows the functions in C have been removed and replaced with python versions
 
 
 ## Dependencies
