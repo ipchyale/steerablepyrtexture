@@ -8,7 +8,7 @@ compatible with Windows the functions in C have been removed and replaced with p
 
 ## Dependencies
 
-From sptools:
+From steerablepyrtexture:
  - numpy
  - scipy
  - matplotlib
