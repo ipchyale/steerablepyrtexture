@@ -38,7 +38,7 @@ To generate a texture feature vector from a 256x256 image use the command:
 
 ```
 import steerablepyrtexture as spt
-params = spt.textureAnalyze(img, 5, 4, 7, vector_output=True)
+params = spt.texture_analyze(img, 5, 4, 7, vector_output=True)
 ```
 
 This uses a 5 subband, 4 orientation steerable pyramid decomposition with a 7x7 square 
