@@ -1,4 +1,5 @@
 from . import pyramids
+from . import tools
 
 from .pyramids.filters import named_filter, binomial_filter, steerable_filters
 
